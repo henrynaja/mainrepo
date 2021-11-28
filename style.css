@@ -1,0 +1,94 @@
+body{
+    text-align: center;
+    margin: 0px;
+    font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    background-color: #0096c7;
+}
+.nav{
+    display: block;
+    background-color: #0077b6;
+    width: 100%;
+    text-align: center;
+    
+
+}
+.nav img{
+    min-width: 200px;
+    margin: 20px;
+}
+.nava{
+    text-shadow: 1px 1px 5px rgb(47, 98, 114);
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #00b4d8;
+    padding: 10px;
+    width: 30%;
+    margin: 8px;
+}
+.content{
+    margin: 10px;
+    text-align: center;
+
+}
+#home{
+    border: 1px solid;
+    border-color: aquamarine;
+}
+.welcome-box{
+    border-radius: 10px;
+    background-color: lightblue;
+    width: 95%;
+    display: inline-block;
+    box-shadow: 0 20px 25px -5px #0077b6, 0 10px 10px -5px #0077b6;
+    margin-bottom: 15px;
+}
+.welcome-box img{
+    display: inline-block;
+    align-items: center;
+    margin-top: 1%;
+    min-width: 50px;
+
+}
+.welcome-box h1{
+    display: block;
+    margin-bottom: 0px;
+}
+.welcome-box p{
+    background-color: lightskyblue;
+    display: inline-block;
+    padding: 1px;
+}
+.welcome-box p a{
+    color: rgba(0, 0, 0, 0.774);
+    text-decoration: none;
+}
+.welcome-box p a:hover{
+    transition-duration: 350ms;
+    color: blue;
+}
+.news-div{
+    border-radius: 10px;
+    background-color: lightblue;
+    width: 47.5%;
+    display: inline-block;
+    box-shadow: 0 20px 25px -5px #0077b6, 0 10px 10px -5px #0077b6;
+    margin-bottom: 15px;
+}
+.footer{
+    width: 100%;
+    background-color: #0077b6;
+}
+.footer p{
+    padding: 1%;
+    margin: 0px;
+}
+.footer p a{
+    color: black;
+    text-decoration: none;
+}
+.footer p a:hover{
+    transition-duration: 300ms;
+    color: blue;
+}
