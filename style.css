@@ -1,3 +1,11 @@
+* a{
+    text-decoration: none;
+    color: black;
+}
+* a:hover{
+    transition-duration: 350ms;
+    color: blue;
+}
 body{
     text-align: center;
     margin: 0px;
@@ -28,7 +36,7 @@ body{
     margin: 8px;
 }
 .content{
-    margin: 10px;
+    margin: 1% 2.5% 0px 2.5%;
     text-align: center;
 
 }
@@ -68,13 +76,62 @@ body{
     transition-duration: 350ms;
     color: blue;
 }
+.news-box{
+    display: inline-block;
+    margin-bottom: 15px;
+}
 .news-div{
     border-radius: 10px;
     background-color: lightblue;
-    width: 47.5%;
+    width: 49.7%;
     display: inline-block;
     box-shadow: 0 20px 25px -5px #0077b6, 0 10px 10px -5px #0077b6;
     margin-bottom: 15px;
+}
+.news-div h2{
+    text-align: center;
+}
+.project td{
+    width: 50%;
+    border-radius: 10px;
+    padding: 15px;
+}
+.news-div h2{
+    margin-bottom: 0px;
+}
+.project td p{
+    border-radius: 10px;
+    margin-top: 0px;
+}
+.project td h4{
+    margin-bottom: 10px;
+}
+.news td{
+    width: 50%;
+    border-radius: 10px;
+    padding: 15px;
+}
+.news td p{
+    border-radius: 10px;
+    margin-top: 0px;
+}
+.news td h4{
+    margin-bottom: 10px;
+}
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+.fleft{
+    float: left;
+}
+.fright{
+    float: right;
+}
+.right img{
+    margin-right: 10px
 }
 .footer{
     width: 100%;
