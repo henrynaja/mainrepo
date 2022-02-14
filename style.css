@@ -1,65 +1,151 @@
+* a{
+    text-decoration: none;
+    color: black;
+}
+* a:hover{
+    transition-duration: 350ms;
+    color: blue;
+}
 body{
-    background-color: #90e0ef;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 0px;
-    
-}
-.start{
     text-align: center;
+    margin: 0px;
+    font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    background-color: #0096c7;
 }
-#nav{
-    background-color: #00b4d8;
-    height: 70px;
+.nav{
     display: block;
+    background-color: #0077b6;
+    width: 100%;
     text-align: center;
     
+
 }
-#nav a{
-    margin: 5px;
-    position: relative;
+.nav img{
+    min-width: 200px;
+    margin: 20px;
+}
+.nava{
+    text-shadow: 1px 1px 5px rgb(47, 98, 114);
+    border-radius: 5px;
+    color: black;
     text-decoration: none;
     display: inline-block;
-    padding: 20px 0px 20px 0px;
+    background-color: #00b4d8;
+    padding: 10px;
     width: 30%;
-    text-align: center;
+    margin: 8px;
 }
+.content{
+    margin: 1% 2.5% 0px 2.5%;
+    text-align: center;
 
-#nav a:hover{
-    background-color: #0077b6;
 }
 #home{
-    background-color: #04d5ff;
-    border-color: #2bdcff;
-    border-style: solid;
+    border: 1px solid;
+    border-color: aquamarine;
 }
-.text{
-  
+.welcome-box{
+    border-radius: 10px;
+    background-color: lightblue;
+    width: 95%;
     display: inline-block;
+    box-shadow: 0 20px 25px -5px #0077b6, 0 10px 10px -5px #0077b6;
+    margin-bottom: 15px;
 }
-.pic-cpu{
-    padding-top: 10px;
-    padding-left: 10px;
-    margin-left: 5%;
-    height: 12%;
-    width: 12%;
+.welcome-box img{
     display: inline-block;
-    border-color:aquamarine;
-    background-color: aquamarine;
-    border-style: solid;
-}
-.pic-gpu{
-    padding-top: 10px;
-    padding-left: 5px;
-    margin-right: 1%;
-    height: 12%;
-    width: 12%;
-    display: inline-block;
-    border-color:aquamarine;
-    border-style: solid;
-    background-color: aquamarine;
-}
+    align-items: center;
+    margin-top: 1%;
+    min-width: 50px;
 
-.text-gpu{
+}
+.welcome-box h1{
+    display: block;
+    margin-bottom: 0px;
+}
+.welcome-box p{
+    background-color: lightskyblue;
     display: inline-block;
-
+    padding: 1px;
+}
+.welcome-box p a{
+    color: rgba(0, 0, 0, 0.774);
+    text-decoration: none;
+}
+.welcome-box p a:hover{
+    transition-duration: 350ms;
+    color: blue;
+}
+.news-box{
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.news-div{
+    border-radius: 10px;
+    background-color: lightblue;
+    width: 49.7%;
+    display: inline-block;
+    box-shadow: 0 20px 25px -5px #0077b6, 0 10px 10px -5px #0077b6;
+    margin-bottom: 15px;
+}
+.news-div h2{
+    text-align: center;
+}
+.project td{
+    width: 50%;
+    border-radius: 10px;
+    padding: 15px;
+}
+.news-div h2{
+    margin-bottom: 0px;
+}
+.project td p{
+    border-radius: 10px;
+    margin-top: 0px;
+}
+.project td h4{
+    margin-bottom: 10px;
+}
+.news td{
+    width: 50%;
+    border-radius: 10px;
+    padding: 15px;
+}
+.news td p{
+    border-radius: 10px;
+    margin-top: 0px;
+}
+.news td h4{
+    margin-bottom: 10px;
+}
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+.fleft{
+    float: left;
+}
+.fright{
+    float: right;
+}
+.right img{
+    margin-right: 10px
+}
+.footer{
+    width: 100%;
+    background-color: #0077b6;
+}
+.footer p{
+    padding: 1%;
+    margin: 0px;
+}
+.footer p a{
+    color: black;
+    text-decoration: none;
+}
+.footer p a:hover{
+    transition-duration: 300ms;
+    color: blue;
 }
