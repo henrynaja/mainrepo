@@ -77,6 +77,10 @@ body{
     transition-duration: 350ms;
     color: blue;
 }
+.welcome-box:hover{
+    transition-duration: 300ms;
+    box-shadow: 0 20px 25px -5px #01a6ff, 0 10px 10px -5px #01a6ff;
+}
 /* Welcome Box Ende
 News Box Start */
 .news-box{
@@ -109,6 +113,10 @@ News Box Start */
 .news td h4{
     margin-bottom: 10px;
 }
+.news-div:hover{
+    transition-duration: 300ms;
+    box-shadow: 0 20px 25px -5px #01a6ff, 0 10px 10px -5px #01a6ff;
+}
 /* News Box Ende
 Projekte Box Start */
 .project td p{
@@ -122,6 +130,31 @@ Projekte Box Start */
     width: 50%;
     border-radius: 10px;
     padding: 15px;
+}
+/* Projekte Seite */
+.project-box{
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.project-item{
+    border-radius: 10px;
+    background-color: lightblue;
+    width: 100%;
+    box-shadow: 0 20px 25px -5px #0077b6, 0 10px 10px -5px #0077b6;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.project-item:hover{
+    transition-duration: 300ms;
+    box-shadow: 0 20px 25px -5px #01a6ff, 0 10px 10px -5px #01a6ff;
+}
+.project-item h2{
+    text-align: left;
+    margin-left: 10px;
+}
+.project-item h2{
+    margin-bottom: 0px;
 }
 /* Allgemeine CSS Anweisungen */
 .left{
