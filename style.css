@@ -189,3 +189,7 @@ Projekte Box Start */
     transition-duration: 300ms;
     color: blue;
 }
+.project-item-text{
+    text-align: left;
+    padding: 10px 10px 0 10px;
+}
